@@ -57,7 +57,7 @@ module.exports = {
     'react/prefer-stateless-function': 'off',
     'object-curly-newline': 'off',
     '@typescript-eslint/no-parameter-properties': 'off',
-    'class-methods-use-this': 'off'
-    // '@typescript-eslint/explicit-member-accessibility': 'off'
+    'class-methods-use-this': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'off'
   },
 };

@@ -24,10 +24,12 @@
   },
   "homepage": "https://github.com/yidafu/chat-room#readme",
   "devDependencies": {
+    "@commitlint/config-conventional": "^7.5.0",
     "@typescript-eslint/eslint-plugin": "^1.6.0",
     "@typescript-eslint/parser": "^1.6.0",
+    "commitlint": "^7.5.2",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.16.0",
+    "eslint": "5.12.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.1",
     "eslint-plugin-jsx-a11y": "^6.2.1",
@@ -43,10 +45,9 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "vue-cli-service lint",
+      "pre-commit": "eslint . --ext .ts,.tsx",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
