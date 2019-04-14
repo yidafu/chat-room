@@ -1,0 +1,5 @@
+frontend/src/serviceWorker.ts
+*.test.ts
+*.test.tsx
+*spec.ts
+node_modules/
